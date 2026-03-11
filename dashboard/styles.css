@@ -13,11 +13,14 @@ body {
 
 .container {
     height: 100%;
+    width: 50%;
+    margin: 1rem auto;
 }
 
 .main-content {
     display: flex;
     height: 100%;
+    border: 2px solid;
 }
 
 /* Sidebar */
