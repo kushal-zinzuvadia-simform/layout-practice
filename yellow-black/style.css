@@ -22,7 +22,7 @@ body {
     gap: 1rem;
 }
 
-.header-footer {
+.header, .footer {
     background-color: orange;
     height: 4rem;
 }
