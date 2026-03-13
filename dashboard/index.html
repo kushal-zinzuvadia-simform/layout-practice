@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <meta name="description"
+        content="Admin dashboard layout built using HTML and CSS featuring sidebar navigation, stats cards, analytics charts, and a dashboard UI.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Main Content -->
+        <div class="main-content">
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="project-title">NOTUS NEXTJS</div>
+
+                <div class="nav-group">
+                    <h4>ADMIN LAYOUT PAGES</h4>
+                    <ul>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Tables</a></li>
+                        <li><a href="#">Maps</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-group">
+                    <h4>AUTH LAYOUT PAGES</h4>
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-group">
+                    <h4>NO LAYOUT PAGES</h4>
+                    <ul>
+                        <li><a href="#">Landing Page</a></li>
+                        <li><a href="#">Profile Page</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-group">
+                    <h4>DOCUMENTATION</h4>
+                    <ul>
+                        <li><a href="#">Styles</a></li>
+                        <li><a href="#">CSS Components</a></li>
+                        <li><a href="#">Angular</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">NextJS</a></li>
+                        <li><a href="#">React</a></li>
+                        <li><a href="#">Svelte</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Main -->
+            <main class="main">
+
+                <!-- Top Header -->
+                <div class="main-header">
+                    <h3>DASHBOARD</h3>
+
+                    <div class="header-right">
+                        <form>
+                            <input type="search" placeholder="Search here...">
+                        </form>
+                        <button class="avatar">P</button>
+                    </div>
+                </div>
+
+                <!-- Stats -->
+                <div class="stats">
+                    <div class="stat-card">Traffic<br><strong>350,897</strong></div>
+                    <div class="stat-card">New Users<br><strong>2,356</strong></div>
+                    <div class="stat-card">Sales<br><strong>924</strong></div>
+                    <div class="stat-card">Performance<br><strong>49.65%</strong></div>
+                </div>
+
+                <!-- Analytics -->
+                <div class="analytics">
+                    <div class="chart sales">
+                        <img src="/dashboard/sales.png" alt="Sales">
+                    </div>
+                    <div class="chart performance">
+                        <img src="/dashboard/performance.png" alt="Performance">
+                    </div>
+                    <div class="chart visits">
+                        <img src="/dashboard/visits.png" alt="Total visits">
+                    </div>
+                    <div class="chart traffic">
+                        <img src="/dashboard/traffic.png" alt="Social Traffic">
+                    </div>
+                </div>
+
+            </main>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
