@@ -29,6 +29,11 @@ header {
     padding: 1rem;
 }
 
+header button {
+    background-color: lightgreen;
+    padding: .5rem 2rem;
+}
+
 main {
     border: 1px solid;
     width: 100%;
@@ -58,11 +63,12 @@ main {
 }
 
 .right-content {
-    background-color: aqua;
+    background-color: lightgray;
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px dashed;
 }
 
 .card {
@@ -78,13 +84,23 @@ main {
     display: flex;
     justify-content: right;
     align-items: top;
-    border-bottom: 1px solid;
+    color: blue;
+    border-bottom: 1px solid black;
+    padding: .4rem;
 }
 
 .card-bottom {
     flex: 1;
     display: flex;
     justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.icon {
+    background-color: lightgreen;
+    border-radius: 10%;
+    height: 100%;
+    aspect-ratio: 1;
 }
 
 .content1 {
